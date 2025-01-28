@@ -1,0 +1,15 @@
+[project]
+name = "brown-forecasting.github.io"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Jacob G-W", email = "jacobgw@brown.edu"},
+]
+dependencies = ["jinja2>=3.1.5"]
+requires-python = "==3.9.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
