@@ -210,6 +210,23 @@
 .text-center {
     text-align: center;
 }
+
+        footer {
+            background-color: #4E3629;
+            color: white;
+            padding: 5px 0;
+            text-align: center;
+            margin-top: auto;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.2s ease;
+        }
+        footer a:hover {
+            color: white;
+            opacity: 0.8;
+        }
     </style>
 </head>
 <body>
@@ -217,7 +234,6 @@
         <a href="index.html">Home</a>
         <a href="tournament.html">Tournament</a>
         <a href="about.html">About</a>
-        <a href="people.html">People</a>
         <a href="schedule.html">Schedule</a>
     </nav>
     <header>
@@ -226,5 +242,8 @@
     <main>
         {% block content %}{% endblock %}
     </main>
+    <footer>
+        <a href="mailto:forecasting@brown.edu">forecasting@brown.edu</a>
+    </footer>
 </body>
 </html>
