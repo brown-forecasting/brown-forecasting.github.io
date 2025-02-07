@@ -21,7 +21,7 @@ def build_site():
     env = Environment(loader=FileSystemLoader('templates'))
 
     # List of pages to generate
-    pages = ['index.html', 'about.html', 'people.html', 'schedule.html']
+    pages = ['index.html', 'about.html', 'people.html', 'schedule.html', "tournament.html"]
 
     # Generate each page
     for page in pages:
